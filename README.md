@@ -40,6 +40,10 @@ At the moment everything is hardcoded into the ruby script except the playlist i
 
 If you have any suggestions just drop me a message or open an issue here at GitHub.
 
+## Changelog
+
+v1.0 First release
+
 ## Other repositories
 
 I'm planning to host this repository also on Codeberg. I will post the url here when this is done.
