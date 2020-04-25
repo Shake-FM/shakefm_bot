@@ -18,7 +18,7 @@ I'm just a listener and regular supporter so this is an **inofficial community p
 
 ## Usage
 
-You can find the bot at [t.me/@shakefm_bot](https://t.me/shakefm_bot) and add it to your Telegram profile by visiting the link and starting the bot by sending him the command `/start`.
+You can find the bot at [t.me/shakefm_bot](https://t.me/shakefm_bot) and add it to your Telegram profile by visiting the link and starting the bot by sending him the command `/start`.
 
 ## Commands
 
