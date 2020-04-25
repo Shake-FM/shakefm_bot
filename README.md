@@ -6,9 +6,9 @@ Thanks to [@atipugin](https://github.com/atipugin/) for his excellent example of
 
 As this is **my first productive Telegram bot** I hope it will get better and more useful from time to time.
 
-By creating this bot I also wanna show my love for [Shake!FM](https://www.shake.fm/). I hope it will help this **great advertisement-less** radio station to gain more listeners in the future as I really like their program. Keep up the good work guys :-)
+By creating this bot I also wanna show my love for [Shake!FM](https://www.shake.fm/). I hope it will help this **great advertisement-less** radio station to gain more listeners in the future. Keep up the good work guys :-)
 
-So just **support the guys at Shake!FM** if you like their program: [shakefm.de/unterstuetzen/](https://www.shakefm.de/unterstuetzen/)
+Just **support the guys at Shake!FM** if you like their program too: [shakefm.de/unterstuetzen/](https://www.shakefm.de/unterstuetzen/)
 
 ## Warranty
 
