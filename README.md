@@ -1,11 +1,18 @@
-# shakefm_bot
-Shake!FM Telegram Bot
+# Shake!FM Telegram Bot
 
-## Thanks
+## First I wanna thank a few people
 
-Thanks to [@atipugin](https://github.com/atipugin/) for his excellent example of a [Telegram ruby bot](https://github.com/atipugin/telegram-bot-ruby/blob/master/examples/bot.rb).
+Thanks to [@atipugin](https://github.com/atipugin/) for his excellent example of a [Telegram ruby bot](https://github.com/atipugin/telegram-bot-ruby/blob/master/examples/bot.rb). This example helped me to develop this bot in no time.
 
-This is my first productive Telegram bot so I hope it will get better and more useful from time to time.
+As this is **my first productive Telegram bot** I hope it will get better and more useful from time to time.
+
+By creating this bot I also wanna show my love for [Shake!FM](https://www.shake.fm/). I hope it will help this **great advertisement-less** radio station to gain more listeners in the future as I really like their program. Keep up the good work guys :-)
+
+So just **support the guys at Shake!FM** if you like their program: [shakefm.de/unterstuetzen/](https://www.shakefm.de/unterstuetzen/)
+
+## Warranty
+
+I'm just a listener and regular supporter so this is an **inofficial community project** which is **not related to Shake!FM or any of their representatives**.
 
 ## Usage
 
@@ -32,4 +39,4 @@ If you have any suggestions just drop me a message or open an issue here at GitH
 
 ## Other repositories
 
-I'm planning to host this repository also at Codeberg. I will post the url here when this is done.
+I'm planning to host this repository also on Codeberg. I will post the url here when this is done.
