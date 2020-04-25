@@ -1,5 +1,7 @@
 # Shake!FM Telegram Bot
 
+![](shakefm.jpg)
+
 ## First I wanna thank a few people
 
 Thanks to [@atipugin](https://github.com/atipugin/) for his excellent example of a [Telegram ruby bot](https://github.com/atipugin/telegram-bot-ruby/blob/master/examples/bot.rb). This example helped me to develop this bot in no time.
