@@ -25,9 +25,10 @@ You can find the bot at [t.me/@shakefm_bot](https://t.me/shakefm_bot) and add it
 `/current_playlist` - Shows the last five tracks  
 `/play` - Shows the url to tune into the radio stream Shake!FM  
 `/tv` - Shows the url to tune into the video stream of Shake!FM  
-`/contact` - Shows contact info  
+`/chat` - Shows the url to open the chat of Shake!FM
 `/social` - Shows social media channels  
-`/stop` - This stops the bot
+`/support` - Shows a way to support Shake!FM  
+`/contact` - Shows contact info  
 
 ## How it works
 
