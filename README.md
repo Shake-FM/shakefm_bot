@@ -46,6 +46,7 @@ If you have any suggestions just drop me a message or open an issue here at GitH
 v1.1 Added `/shows` switch, Added Markdown style and emojis to the output  
 v1.0 First release
 
-## Other repositories
+## Other repositories / Mirrors
 
+This repository is hosted at GitHub: https://github.com/codiflow/shakefm_bot
 This repository is mirrored at Codeberg: https://codeberg.org/codiflow/shakefm_bot
