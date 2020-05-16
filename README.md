@@ -48,5 +48,5 @@ v1.0 First release
 
 ## Other repositories / Mirrors
 
-This repository is hosted at GitHub: https://github.com/codiflow/shakefm_bot
+This repository is hosted at GitHub: https://github.com/codiflow/shakefm_bot  
 This repository is mirrored at Codeberg: https://codeberg.org/codiflow/shakefm_bot
