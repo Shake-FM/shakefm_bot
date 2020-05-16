@@ -8,6 +8,7 @@ current_track - Welcher Track läuft gerade?
 current_playlist - Welche Tracks liefen zuletzt?
 play - Starte den Radio-Stream
 tv - Starte den TV-Stream
+shows - Zeige mir das Radioprogramm
 chat - Starte den Chat
 social - Unsere Social Media Kanäle
 support - Unterstütze uns mit einer Mitgliedschaft
