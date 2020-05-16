@@ -43,7 +43,7 @@ If you have any suggestions just drop me a message or open an issue here at GitH
 
 ## Changelog
 
-v1.1 Added `/shows` switch
+v1.1 Added `/shows` switch  
 v1.0 First release
 
 ## Other repositories
