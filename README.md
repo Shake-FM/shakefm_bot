@@ -27,6 +27,7 @@ You can find the bot at [t.me/shakefm_bot](https://t.me/shakefm_bot) and add it 
 `/current_playlist` - Shows the last five tracks  
 `/play` - Shows the url to tune into the radio stream Shake!FM  
 `/tv` - Shows the url to tune into the video stream of Shake!FM  
+`/shows` - Shows infos regarding all scheduled shows
 `/chat` - Shows the url to open the chat of Shake!FM
 `/social` - Shows social media channels  
 `/support` - Shows a way to support Shake!FM  
@@ -42,6 +43,7 @@ If you have any suggestions just drop me a message or open an issue here at GitH
 
 ## Changelog
 
+v1.1 Added `/shows` switch
 v1.0 First release
 
 ## Other repositories
