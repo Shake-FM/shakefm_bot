@@ -48,4 +48,4 @@ v1.0 First release
 
 ## Other repositories
 
-I'm planning to host this repository also on Codeberg. I will post the url here when this is done.
+This repository is mirrored at Codeberg: https://codeberg.org/codiflow/shakefm_bot
