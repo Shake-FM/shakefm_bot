@@ -18,7 +18,7 @@ end
 token = 'REDACTED-FOR-SECURITY'
 
 # Current version
-version_string = 'shakefm_bot v1.1 - 16.05.2020'
+version_string = 'shakefm\_bot v1.2 - 22.05.2020'
 
 # Emojis
 emoji_right_arrow = "\u27A1"
@@ -37,11 +37,11 @@ Telegram::Bot::Client.run(token) do |bot|
       parsed = JSON.parse(response)
       # Check if theres currently a show in progress
       if parsed[0]["title"] == "" and parsed[0]["artist"] == ""
-        bot.api.send_message(chat_id: message.chat.id, text: "Aktuell läuft eine *Live-Sendung*.\n\nAlle Titel findest du hier:\nhttps://api.shakefm.de/playlist/", parse_mode: "Markdown", disable_web_page_preview: true)
+        bot.api.send_message(chat_id: message.chat.id, text: "Aktuell läuft eine *Live-Sendung*.\n\nAlle Titel findest du hier:\nhttps://www.shakefm.de/player/", parse_mode: "Markdown", disable_web_page_preview: true)
       else
-        bot.api.send_message(chat_id: message.chat.id, text: "#{parsed[0]["date"]}, #{parsed[0]["time"]}: *#{parsed[0]["artist"]} - #{parsed[0]["title"]}*\n\nAlle Titel findest du hier: https://api.shakefm.de/playlist/", parse_mode: "Markdown", disable_web_page_preview: true)
+        bot.api.send_message(chat_id: message.chat.id, text: "#{parsed[0]["date"]}, #{parsed[0]["time"]}: *#{parsed[0]["artist"]} - #{parsed[0]["title"]}*\n\nAlle Titel findest du hier:\nhttps://www.shakefm.de/player/", parse_mode: "Markdown", disable_web_page_preview: true)
       end
-    when '/current_playlist'
+    when '/playlist'
       url = 'https://api.shakefm.de/playlist/'
       uri = URI(url)
       response = Net::HTTP.get(uri)
@@ -51,12 +51,12 @@ Telegram::Bot::Client.run(token) do |bot|
       bot.api.send_message(chat_id: message.chat.id, text: "Shake!FM Player\nhttps://www.shakefm.de/player/")
     when '/shows'
       # Special shows
-      if timestamp < 1589666400 # Sonntag, 17. Mai 2020 00:00:00 GMT+02:00 DST
-        bot.api.send_message(chat_id: message.chat.id, text: "*SPEZIELLE TERMINE*\nSamstag und Sonntag 16. und 17. Mai: #bleibzuhause Wochenende Teil 9\n\nWir gehen in *das neunte Party-WE* mit euch.\n\nAkim B., DJ Kobex, André Fossen, Deejay Caspa, Lutz Wollgarten (Hunky & Funky), Maurice Da Vido und Peter Železnik liefern euch den Partysound in die eigenen vier Wände.", parse_mode: "Markdown")
-        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Samstag-9.jpg")
-        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Sonntag-9.jpg")
-      elsif timestamp > 1589666400 and timestamp < 1589706000 # Sonntag, 17. Mai 2020 11:00:00 GMT+02:00 DST
-        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Sonntag-9.jpg")
+      if timestamp < 1590271200 # Sonntag, 24. Mai 2020 00:00:00 GMT+02:00 DST
+        bot.api.send_message(chat_id: message.chat.id, text: "*SPEZIELLE TERMINE*\nSamstag und Sonntag 23. und 24. Mai: #bleibzuhause Wochenende Teil 10\n\nWir gehen in *das zehnte Party-WE* mit euch.\n\nWir gehen in das zehnte Party-WE mit euch. Mit dabei sind Deejay Caspa, André Fossen, Mr. Brown und DJ Jocar und Booming B. von “The Spank” aus Paderborn.", parse_mode: "Markdown")
+        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Samstag-10.jpg")
+        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Sonntag-10.jpg")
+      elsif timestamp > 1590271200 and timestamp < 1590310800 # Sonntag, 24. Mai 2020 11:00:00 GMT+02:00 DST
+        bot.api.send_photo(chat_id: message.chat.id, photo: "https://www.shakefm.de/wp-content/uploads/2020/05/Bleibzuhause-Sonntag-10.jpg")
       end
 
       # Weekly shows
