@@ -43,6 +43,7 @@ If you have any suggestions just drop me a message or open an issue here at GitH
 
 ## Changelog
 
+v1.2 Moved this repository to the official Shake-FM repository, Replaced command /current_playlist by /playlist, Added this weeks special show details
 v1.1 Added `/shows` switch, Added Markdown style and emojis to the output  
 v1.0 First release
 
