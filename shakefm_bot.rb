@@ -1,7 +1,7 @@
 # Shake!FM Telegram Bot
 #
 # Created: 25.04.2020 by codiflow (t.me/codiflow)
-# Updated: 16.05.2020 by codiflow (t.me/codiflow)
+# Updated: 22.05.2020 by codiflow (t.me/codiflow)
 #
 # License: MIT
 # Source: https://github.com/codiflow/shakefm_bot
