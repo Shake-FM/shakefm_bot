@@ -5,7 +5,7 @@
 ```
 start - Starte den Shake!FM Bot
 current_track - Welcher Track läuft gerade?
-current_playlist - Welche Tracks liefen zuletzt?
+playlist - Welche Tracks liefen zuletzt?
 play - Starte den Radio-Stream
 tv - Starte den TV-Stream
 shows - Zeige mir das Radioprogramm
