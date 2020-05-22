@@ -24,7 +24,7 @@ You can find the bot at [t.me/shakefm_bot](https://t.me/shakefm_bot) and add it 
 
 `/start` - This starts the bot  
 `/current_track` - Shows the current track  
-`/current_playlist` - Shows the last five tracks  
+`/playlist` - Shows the last five tracks  
 `/play` - Shows the url to tune into the radio stream Shake!FM  
 `/tv` - Shows the url to tune into the video stream of Shake!FM  
 `/shows` - Shows infos regarding all scheduled shows  
